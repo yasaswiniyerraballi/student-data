@@ -1,0 +1,111 @@
+/* Add this to your existing CSS file */
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #2980b9;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-btn {
+    background-color: #2980b9;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.header-btn:hover {
+    background-color: #3498db;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    color: #34495e;
+    text-align: center;
+}
+
+h2 {
+    color: #2980b9;
+    font-size: 2em;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ecf0f1;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #bdc3c7;
+}
+
+li span {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+li .birthdate {
+    color: #7f8c8d;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #95a5a6;
+}
